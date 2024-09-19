@@ -3,6 +3,8 @@
     <head>
         <!-- Meta dados: Dados que descrevem dados -->
         <title>Cadastro de Animais</title>
+
+        <!-- http://localhost/curso20242/cadastro.html -->
     </head>
     <body>
         <!-- Corpo da página, o que é visível ao usurário -->
@@ -12,18 +14,23 @@
             <!-- method="get" = é passado na URL -->
             <!-- method="post" = NÃO é passado na URL -->
             <table>
+                <!-- tr = table row -->
                 <tr>
+                    <!-- td = table data -->
                     <td> <label for="nome">Nome: </label> </td>
                     <td> <input type="text" name="nome"> </td>
                 </tr>
                 <tr>
                     <td> <label for="tutor">Tutor: </label> </td>
-                    <td> <input type="text" name="tutor"> </td>
+                    <td> <input type="text" name="tutor"/> </td>
                 </tr>
                 <tr>
                     <td colspan="2"> <input type="submit" value="Enviar"> </td>
                 </tr>
             </table> 
+
+            <!-- br = break row -->
+            <br/>
          </form>
     </body>
 </html>
