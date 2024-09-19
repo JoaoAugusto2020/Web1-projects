@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Meta dados: Dados que descrevem dados -->
+        <title>Cadastro de Animais</title>
+    </head>
+    <body>
+        <!-- Corpo da página, o que é visível ao usurário -->
+         <h1>Cadastro de Animais</h1>
+
+         <form action="cadastrar.php" method="get">
+            <!-- method="get" = é passado na URL -->
+            <!-- method="post" = NÃO é passado na URL -->
+            <table>
+                <tr>
+                    <td> <label for="nome">Nome: </label> </td>
+                    <td> <input type="text" name="nome"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="tutor">Tutor: </label> </td>
+                    <td> <input type="text" name="tutor"> </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input type="submit" value="Enviar"> </td>
+                </tr>
+            </table> 
+         </form>
+    </body>
+</html>
