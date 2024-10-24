@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        if(iset($status)){
+        if(isset($status)){
             echo "<h2>" . $status . "<h2/>";
         }
     ?>

@@ -12,7 +12,7 @@
         //objeto recebe a conexão
         public $con = null;
 
-        public function __contruct(){
+        public function __construct(){
             $conF = new ConnectionFactory();
             $this->con = $conF->getConnection();
         }
@@ -47,6 +47,7 @@
                 if($query == null){
                     //dataset (conjunto de dados) geral
                     $dados = $this->con->query("SELECT * FROM contato");
+
                 }else{
                     //dataset (conjunto de dados) com query específica
                     $dados = $this->con->query($query);

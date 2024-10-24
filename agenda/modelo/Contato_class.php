@@ -8,7 +8,7 @@
         private $foto;
 
         //construtor vazio
-        public function __contruct(){
+        public function __construct(){
         }
 
         //getters e setters
@@ -16,31 +16,31 @@
             $this->id = $id;
         }
         public function getId(){
-            return $this->$id;
+            return $this->id;
         }
         public function setNome($nome){
             $this->nome = $nome;
         }
         public function getNome(){
-            return $this->$nome;
+            return $this->nome;
         }
         public function setEmail($email){
             $this->email = $email;
         }
         public function getEmail(){
-            return $this->$email;
+            return $this->email;
         }
         public function setTelefone($telefone){
             $this->telefone = $telefone;
         }
         public function getTelefone(){
-            return $this->$telefone;
+            return $this->telefone;
         }
         public function setFoto($foto){
             $this->foto = $foto;
         }
         public function getFoto(){
-            return $this->$foto;
+            return $this->foto;
         }
     }
 ?>
