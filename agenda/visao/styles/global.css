@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #000000;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #008b0e;
+    transition: 0.3s all;
+}
+
+#adminButton{
+    border: 2px solid #008b0e;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#adminButton:hover{
+    background-color: #008b0e;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 25px;
+    line-height: 10px;
+    font-family: roboto;
+    color: #008b0e;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+aside{
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input[type="submit"] {
+    border: 2px solid #008b0e;
+    background-color: #000000;
+    color: white;
+    border-radius: 15px;
+    height: 50px;
+    width: 50%;
+}
+
+input[type="submit"]:hover{
+    background-color: #008b0e;
+    color: white;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
